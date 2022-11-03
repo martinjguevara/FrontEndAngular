@@ -1,0 +1,25 @@
+#margen{
+    margin-top: 15px;
+}
+
+#sizeheader{
+    height: 60px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#iglogo{
+    height: 45px;
+    width: 45;
+    margin-top: 10px;
+    margin-left: 35px;
+    border-radius: 10px;
+}
+
+#twlogo{
+    height: 45px;
+    width: 45;
+    margin-top: 10px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
