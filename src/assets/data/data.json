@@ -1,0 +1,60 @@
+{
+    "name": "Martin Javier",
+    "lastname": "Guevara Martinez",
+    "backimage": "./assets/banner.jpg",
+    "image": "./assets/mifotoperfil.jpg",
+    "position": {
+        "first": "Desarrollador Web",
+        "second": "Técnico en Automatización y Sistemas de control"
+    },
+    "acercaDe": {
+        "about": "Full Stack Web Developer Jr, Estudiante Universitario de Licenciatura en Sistemas de información y Egresado de Secundaria Técnica.",
+        "ubication" : "Neuquén (Argentina)" 
+    },
+    "experiencia": "Sin experiencia laboral",
+
+    "educacion": [
+        {
+            "image": "./assets/uncomalogo.png",
+            "name": "Universidad Nacional del Comahue (Neuquén, Argentina)",
+            "title": "Licenciatura en Sistemas de Información",
+            "date": "2022 - 2023"
+        },
+        {
+            "image": "./assets/eclalogo.jpg",
+            "name": "Escuela Cooperativa Técnica Los Andes (San Carlos de Bariloche, Argentina)",
+            "title": "Tecnicatura en Automatización y Sistemas de control",
+            "date": "2016 - 2021"
+        }
+    ],
+
+    "skills": [
+        {
+            "name": "Programación",
+            "progress": 70
+        },
+        {
+            "name": "Resolución de Problemas",
+            "progress": 90
+        },
+        {
+            "name": "Trabajo en equipo",
+            "progress": 70
+        },
+        {
+            "name": "Idioma Inglés",
+            "progress": 80
+        }
+    ],
+
+    "proyectos": [
+        {
+            "name": "Portafolio Web",
+            "info": "Desarrollo de una aplicación web. Para FrontEnd: HTML y CSS con framework Bootstrap para estructura y estilos y Typescript con framework Angular para programación. Para BackEnd: Java con framework Springboot para programación y MySQL para base de datos."
+        },
+        {
+            "name": "Proyecto iluminación Domótica",
+            "info": "Circuito que por medio de una aplicación web desde el celular móvil se puede controlar el encendido/apagado de un foco led. Consiste en una placa Arduino UNO conectada a un módulo WiFi (ESP8266), que a su vez, está conectado a un módulo relé (Circuito MOC3021) y al foco Led."
+        }
+    ]
+}

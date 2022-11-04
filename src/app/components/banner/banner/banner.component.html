@@ -6,8 +6,8 @@
 
             <div class="col-12">
                 <div style="position: relative; left:0; top: 0;">
-                    <img src="./assets/banner.jpg" alt="banner" class="banner">
-                    <img src="./assets/mifotoperfil.jpg" alt="fotoPerfil" class="perfil">
+                    <img [src]="datos.backimage" alt="banner" class="banner">
+                    <img [src]="datos.image" alt="fotoPerfil" class="perfil">
                 </div>
             </div> 
 
@@ -19,20 +19,19 @@
         <div class="row" id="margen">
 
             <div class="col-1"></div>
-            <div class="col-5">
-                <h3>Guevara Martinez</h3>
-                <h3>Martin Javier</h3>   
+            <div class="col-3">
+                <h3>{{datos.lastname}}</h3>
+                <h3>{{datos.name}}</h3>   
                 <ul>
-                    <li><h5>Desarrollador Web</h5></li>
-                    <li><h5>Técnico en Automatización y</h5>
-                    <h5>Sistemas de control</h5></li>
+                    <li><h5>{{datos.position.first}}</h5></li>
+                    <li><h5>{{datos.position.second}}</h5></li>
                 </ul>
             </div>
-            <div class="col">
+            <div class="col-1"></div>
+            <div class="col-6">
                 <h3>Acerca de</h3>
-                <h5>Full Stack Web Developer Jr, Estudiante Universitario de</h5>
-                <h5>Licenciatura en Sistemas de información y Egresado de</h5>
-                <h5>Secundaria Técnica. Neuquén (Argentina).</h5>
+                <h5>{{datos.acercaDe.about}}</h5>
+                <h5>{{datos.acercaDe.ubication}}</h5>
             </div>
 
         </div>
