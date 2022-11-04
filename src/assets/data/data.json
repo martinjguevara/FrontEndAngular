@@ -1,4 +1,8 @@
 {
+    "aplogo": "./assets/logoArgProg.PNG",
+    "iglogo": "./assets/instagramlogo.PNG",
+    "twlogo": "./assets/twitterlogo.PNG",
+
     "name": "Martin Javier",
     "lastname": "Guevara Martinez",
     "backimage": "./assets/banner.jpg",
@@ -11,50 +15,55 @@
         "about": "Full Stack Web Developer Jr, Estudiante Universitario de Licenciatura en Sistemas de información y Egresado de Secundaria Técnica.",
         "ubication" : "Neuquén (Argentina)" 
     },
+
     "experiencia": "Sin experiencia laboral",
 
-    "educacion": [
-        {
+    "educacion": {
+        "first": {
             "image": "./assets/uncomalogo.png",
             "name": "Universidad Nacional del Comahue (Neuquén, Argentina)",
             "title": "Licenciatura en Sistemas de Información",
             "date": "2022 - 2023"
         },
-        {
+        "second": {
             "image": "./assets/eclalogo.jpg",
             "name": "Escuela Cooperativa Técnica Los Andes (San Carlos de Bariloche, Argentina)",
             "title": "Tecnicatura en Automatización y Sistemas de control",
             "date": "2016 - 2021"
         }
-    ],
+    },
 
-    "skills": [
-        {
+    "skills": {
+        "first" :{
             "name": "Programación",
-            "progress": 70
+            "progress": "70%",
+            "bar": "width: 70%"
         },
-        {
+        "second":{
             "name": "Resolución de Problemas",
-            "progress": 90
+            "progress": "90%",
+            "bar": "width: 90%"
         },
-        {
+        "third":{
             "name": "Trabajo en equipo",
-            "progress": 70
+            "progress": "70%",
+            "bar": "width: 70%"
         },
-        {
+        "fourth":{
             "name": "Idioma Inglés",
-            "progress": 80
+            "progress": "80%",
+            "bar": "width: 80%"
         }
-    ],
+    },
 
-    "proyectos": [
-        {
+    "proyectos": {
+        "first": {
             "name": "Portafolio Web",
             "info": "Desarrollo de una aplicación web. Para FrontEnd: HTML y CSS con framework Bootstrap para estructura y estilos y Typescript con framework Angular para programación. Para BackEnd: Java con framework Springboot para programación y MySQL para base de datos."
         },
-        {
+        "second": {
             "name": "Proyecto iluminación Domótica",
             "info": "Circuito que por medio de una aplicación web desde el celular móvil se puede controlar el encendido/apagado de un foco led. Consiste en una placa Arduino UNO conectada a un módulo WiFi (ESP8266), que a su vez, está conectado a un módulo relé (Circuito MOC3021) y al foco Led."
         }
-    ]
+    }   
 }

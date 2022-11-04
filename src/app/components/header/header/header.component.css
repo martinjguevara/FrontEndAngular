@@ -7,18 +7,37 @@
     margin-bottom: 10px;
 }
 
+#aplogo{
+    height: 100%;
+    width: 100%;
+    border: 2px solid black;
+    margin-top: 3px;
+}
+
+#yoprogramo{
+    border: 2px solid black;
+    margin-top: 5px;
+}
+
 #iglogo{
     height: 45px;
     width: 45;
-    margin-top: 10px;
+    margin-top: 13px;
     margin-left: 35px;
     border-radius: 10px;
 }
 
 #twlogo{
-    height: 45px;
-    width: 45;
-    margin-top: 10px;
-    margin-left: 10px;
+    width:45;
+    height:45px;
+    margin-top:13px;
+    margin-left:10px;
+    border-radius: 10px;
+}
+
+.boton{
+    margin-top: 8px;
+    background-color: rgb(100, 100, 236);
+    border: 2px solid black;
     border-radius: 10px;
 }

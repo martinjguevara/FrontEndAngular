@@ -3,39 +3,33 @@
     <div class="container" id="sizebanner">
     
         <div class="row">
-
             <div class="col-12">
                 <div style="position: relative; left:0; top: 0;">
-                    <img [src]="datos.backimage" alt="banner" class="banner">
-                    <img [src]="datos.image" alt="fotoPerfil" class="perfil">
+                    <img [src]="bannerData.backimage" alt="banner" class="banner">
+                    <img [src]="bannerData.image" alt="fotoPerfil" class="perfil">
                 </div>
-            </div> 
-
+            </div>
         </div>
     </div>
 
     <div class="container">   
 
         <div class="row" id="margen">
-
             <div class="col-1"></div>
             <div class="col-3">
-                <h3>{{datos.lastname}}</h3>
-                <h3>{{datos.name}}</h3>   
+                <h3>{{bannerData.lastname}}</h3>
+                <h3>{{bannerData.name}}</h3>   
                 <ul>
-                    <li><h5>{{datos.position.first}}</h5></li>
-                    <li><h5>{{datos.position.second}}</h5></li>
+                    <li><h5>{{bannerData.position.first}}</h5></li>
+                    <li><h5>{{bannerData.position.second}}</h5></li>
                 </ul>
             </div>
             <div class="col-1"></div>
             <div class="col-6">
                 <h3>Acerca de</h3>
-                <h5>{{datos.acercaDe.about}}</h5>
-                <h5>{{datos.acercaDe.ubication}}</h5>
+                <h5>{{bannerData.acercaDe.about}}</h5>
+                <h5>{{bannerData.acercaDe.ubication}}</h5>
             </div>
-
         </div>
- 
     </div>
-
 </div>

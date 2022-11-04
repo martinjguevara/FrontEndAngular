@@ -8,14 +8,13 @@ import { PortafolioService } from 'src/app/services/portafolio.service';
 })
 export class BannerComponent implements OnInit {
 
-  datos: any;
+  bannerData: any;
 
   constructor(private datosPortafolio: PortafolioService) { }
 
   ngOnInit(): void {
     this.datosPortafolio.obtenerDatos().subscribe(data => {
-      console.log(data); 
-      this.datos=data;
+      this.bannerData=data;
     });
   }
 

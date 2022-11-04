@@ -1,13 +1,11 @@
 <div class="container" id="sizeheader">
 
     <div class="row">
-
-        <div class="col-sm-2"><img src="./assets/logoArgProg.PNG" class="img-fluid" alt="logo" width="100%" height="100%"></div>
-        <div class="col-sm-7"><h1>#YoProgramo</h1></div>
-        <div class="col"><img src="./assets/instagramlogo.PNG" class="img-fluid" alt="iglogo" id="iglogo"></div>
-        <div class="col"><img src="./assets/twitterlogo.PNG" class="img-fluid" alt="twlogo" id="twlogo"></div>
-        <div class="col"><button type="button" class="btn btn-primary">Login Edición</button></div>
-
+        <div class="col-sm-2"><img [src]="headerData.aplogo" class="img-fluid" alt="aplogo" id="aplogo"></div>
+        <div class="col-3" id="yoprogramo"><h1>#YoProgramo</h1></div>
+        <div class="col-sm-4"></div>
+        <div class="col"><img [src]="headerData.iglogo" class="img-fluid" alt="iglogo" id="iglogo"></div>
+        <div class="col"><img [src]="headerData.twlogo" class="img-fluid" alt="twlogo" id="twlogo"></div>
+        <div class="col"><button type="button" class="boton">Login Edición</button></div>
     </div>
-
 </div>
